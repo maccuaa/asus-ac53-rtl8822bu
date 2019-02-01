@@ -8,7 +8,7 @@ The following was tested using:
 
 OS: **Fedora 28**
 
-Kernel: **4.17.9-200.fc28.x86_64**
+Kernel: **4.20.4-100.fc28.x86_64**
 
 Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
 

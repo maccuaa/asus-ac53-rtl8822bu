@@ -8,7 +8,7 @@ The following was tested using:
 
 OS: **Fedora 28**
 
-Kernel: **4.20.4-100.fc28.x86_64**
+Kernel: **5.0.5-100.fc28.x86_64**
 
 Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
 
@@ -60,3 +60,5 @@ Sources:
 - https://wikidevi.com/wiki/ASUS_USB-AC53_Nano
 
 - https://www.edimax.com/edimax/download/download/data/edimax/global/download/for_home/wireless_adapters/wireless_adapters_ac1200_dual-band/ew-7822ulc
+
+- https://github.com/jeremyb31/rtl8822bu

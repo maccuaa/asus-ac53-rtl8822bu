@@ -8,7 +8,7 @@ The following was tested using:
 
 OS: **Fedora 30**
 
-Kernel: **5.1.5-300.fc30.x86_64**
+Kernel: **5.2.6-200.fc30.x86_64**
 
 Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
 
@@ -26,7 +26,7 @@ Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
     # Find your current kernel version
     $ uname -r
 
-    $ sudo dnf install kernel-devel-5.1.5-300.fc30.x86_64
+    $ sudo dnf install kernel-devel-5.2.6-200.fc30.x86_64
     ```
 
 1. Install [ELF Utils](https://sourceware.org/elfutils/):
@@ -61,4 +61,4 @@ Sources:
 
 - https://www.edimax.com/edimax/download/download/data/edimax/global/download/for_home/wireless_adapters/wireless_adapters_ac1200_dual-band/ew-7822ulc
 
-- https://github.com/jeremyb31/rtl8822bu
+- https://github.com/abperiasamy/rtl8812AU_8821AU_linux

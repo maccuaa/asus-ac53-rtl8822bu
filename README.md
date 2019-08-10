@@ -35,22 +35,10 @@ Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
     $ sudo dnf info elfutils-libelf-devel-0.176-2.fc30.x86_64
     ```
 
-1. Compile the source code:
+1. Run the build script:
 
     ```bash
-    make
-    ```
-
-1. Install the kernel module:
-
-    ```bash
-    sudo make install
-    ```
-
-1. Load the kernel module
-
-    ```bash
-    sudo modprobe -v 88x2bu
+    $ ./build.sh
     ```
 
 ---

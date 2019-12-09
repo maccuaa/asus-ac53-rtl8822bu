@@ -14,32 +14,41 @@ Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
 
 ## Instructions
 
-1. Clone this project:
+1.  Clone this project:
 
     ```bash
     $ git clone https://github.com/maccuaa/asus-ac53-rtl8822bu.git
     ```
 
-1. Install the kernel-devel package for the kernel you are currently running:
+1.  Install the kernel-devel package for the kernel you are currently running:
 
-    ```bash
-    # Find your current kernel version
-    $ uname -r
+        ```bash
+        # Find your current kernel version
+        $ uname -r
 
-    $ sudo dnf install kernel-devel-5.3.14-200.fc30.x86_64
-    ```
+        $ sudo dnf install kernel-devel-5.3.14-200.fc30.x86_64
 
-1. Install [ELF Utils](https://sourceware.org/elfutils/):
+        ```
+
+1.  Install [ELF Utils](https://sourceware.org/elfutils/):
 
     ```bash
     $ sudo dnf info elfutils-libelf-devel
     ```
 
-1. Run the build script:
+1.  Run the build script:
 
     ```bash
     $ ./build.sh
     ```
+
+## Older Kernels
+
+The `master` branch will only support the latest version of the Linux Kernel.
+
+When a breaking change is introduced, a new branch is created with name of the old kernel version.
+
+To compile the driver for an older kernel, check out the branch that matches your kernel version.
 
 ---
 

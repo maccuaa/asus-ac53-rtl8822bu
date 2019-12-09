@@ -8,7 +8,7 @@ The following was tested using:
 
 OS: **Fedora 30**
 
-Kernel: **5.3.13-200.fc30.x86_64**
+Kernel: **5.2.6-200.fc30.x86_64**
 
 Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
 
@@ -26,7 +26,7 @@ Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
     # Find your current kernel version
     $ uname -r
 
-    $ sudo dnf install kernel-devel-5.3.13-200.fc30.x86_64
+    $ sudo dnf install kernel-devel-5.2.6-200.fc30.x86_64
     ```
 
 1. Install [ELF Utils](https://sourceware.org/elfutils/):

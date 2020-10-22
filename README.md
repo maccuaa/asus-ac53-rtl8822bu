@@ -6,9 +6,9 @@ This driver adds Linux support for the [ASUS USB AC53 Nano](https://www.asus.com
 
 The following was tested using:
 
-OS: **Fedora 31**
+OS: **Fedora 32**
 
-Kernel: **5.4.10-200.fc31.x86_64**
+Kernel: **5.8.15-201.fc32.x86_64**
 
 Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
 
@@ -26,8 +26,7 @@ Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
         # Find your current kernel version
         $ uname -r
 
-        $ sudo dnf install kernel-devel-5.4.10-200.fc31.x86_64
-
+        $ sudo dnf install kernel-devel
         ```
 
 1.  Install [ELF Utils](https://sourceware.org/elfutils/):

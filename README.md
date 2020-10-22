@@ -59,3 +59,5 @@ Sources:
 - https://www.edimax.com/edimax/download/download/data/edimax/global/download/for_home/wireless_adapters/wireless_adapters_ac1200_dual-band/ew-7822ulc
 
 - https://github.com/abperiasamy/rtl8812AU_8821AU_linux
+
+- https://github.com/aircrack-ng/rtl8812au

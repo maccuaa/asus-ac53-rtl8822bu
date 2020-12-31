@@ -6,9 +6,9 @@ This driver adds Linux support for the [ASUS USB AC53 Nano](https://www.asus.com
 
 The following was tested using:
 
-OS: **Fedora 32**
+OS: **Fedora 33**
 
-Kernel: **5.8.16-200.fc32.x86_64**
+Kernel: **5.9.16-200.fc33.x86_64**
 
 Driver: **EW-7822ULC_Linux_Wi-Fi_Driver_1.0.1.6**
 
